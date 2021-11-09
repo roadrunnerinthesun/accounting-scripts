@@ -12,7 +12,7 @@ def print_melon(name, seedless, price):
         have_or_have_not = 'do not have'
 
     print(f'{name}s {have_or_have_not} seeds and are ${price:.2f}')
-
+ hello
 
 for i in melon_names:
     print_melon(melon_names[i], melon_seedlessness[i], melon_prices[i])
